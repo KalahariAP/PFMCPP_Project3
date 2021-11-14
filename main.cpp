@@ -57,59 +57,59 @@ Thing: Car Wash
  */
 
 /*
-Thing 1)
+Thing 1) Beach
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) number of tourists
+    2) kilometers of coastline
+    3) number of sunbeds
+    4) number of palm trees
+    5) lifeguard service
 3 things it can do:
-    1)
-    2)
-    3)
+    1) change extension
+    2) create dunes
+    3) grow coconut trees
  */
 
 /*
-Thing 2)
+Thing 2) Restaurant
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) number of tables
+    2) meters of bar counter
+    3) meals per day
+    4) Michelin star rating
+    5) diners per week
 3 things it can do:
-    1)
-    2)
-    3)
+    1) offer happy hour
+    2) feed
+    3) reserve the right of admission
  */
 
 /*
-Thing 3)
+Thing 3) Museum
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) number of paints rooms
+    2) visitors per day
+    3) classic art section
+    4) souvenir shop
+    5) number of sculptures
 3 things it can do:
-    1)
-    2)
-    3)
+    1) select artists
+    2) charge entrance
+    3) exhibit art
  */
 
 /*
-Thing 4)
+Thing 4) Robot
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) number of processors
+    2) articulated arms
+    3) kilos of metal
+    4) number of viewers
+    5) number of microchips
 3 things it can do:
-    1)
-    2)
-    3)
+    1) replace a human
+    2) calculate quickly
+    3) make automated decisions
  */
 
 
