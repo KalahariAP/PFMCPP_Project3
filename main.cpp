@@ -137,6 +137,146 @@ Thing 4) Robot
     3) make automated decisions
  */
 
+/*
+Thing 1) synthesizer
+5 properties: 
+    1) power (bool)
+    2) oscillator (int)
+    3) filter (float)
+    4) keyboard (int)
+    5) model (char)
+3 things it can do:
+    1) modify waves
+    2) emit sound
+    3) vary frequencies
+ */
+
+ /*
+Thing 2) HDD
+5 properties:
+    1) memory (float)
+    2) disk RPM (int)
+    3) LED (bool)
+    4) voltage (int)
+    5) color (std::string)
+3 things it can do:
+    1) store data
+    2) connect with computer
+    3) contain information
+ */
+
+ /*
+Thing 3) Microphone
+5 properties:
+    1) low cut filter (bool)
+    2) coil meters (float)
+    3) square grid (int)
+    4) magnet weight (float)
+    5) support type (std::string)
+3 things it can do:
+    1) amplify sound
+    2) cut low sounds
+    3) attach to a stand
+ */
+
+ /*
+Thing 4) Radio 
+5 properties:
+    1) volume (int)
+    2) light vu meter (bool)
+    3) frequency class (int)
+    4) antenna length (float)
+    5) batteries (int)
+3 things it can do:
+    1) receive radio frequency
+    2) choose stations
+    3) broadcast information live
+ */
+
+ /*
+Thing 5) Reflex camera
+5 properties:
+    1) flash (bool)
+    2) diaphragm (float)
+    3) lens (int)
+    4) screen (int)
+    5) Format (std::string)
+3 things it can do:
+    1) capture images
+    2) regulate the amount of light
+    3) focus images
+ */
+
+ /*
+Thing 6) Drumbox
+5 properties:
+    1) knob (int)
+    2) sample rate (int)
+    3) steps (int)
+    4) mute (bool)
+    5) start point sample (float)
+3 things it can do:
+    1) create loops
+    2) store beats
+    3) import midi
+ */
+
+ /*
+Thing 7) Pedal Delay
+5 properties:
+    1) switch (bool)
+    2) level (int)
+    3) time (int)
+    4) feedback (int)
+    5) brand (std::string)
+3 things it can do:
+    1) repeat the sound
+    2) light up when activated
+    3) connect to another effect
+ */
+
+ /*
+Thing 8) watch
+5 properties:
+    1) clock hands (int)
+    2) crown type (std::string)
+    3) bracelet strap (std::string)
+    4) dial (int)
+    5) alarm (bool)
+3 things it can do:
+    1) mark the time
+    2) used as a complement
+    3) be used as an alarm clock
+ */
+
+ /*
+Thing 9) Shoe
+5 properties:
+    1) tongue (std::string)
+    2) laces (int)
+    3) color (std:string)
+    4) size (int)
+    5) airunit (bool)
+3 things it can do:
+    1) conform to the foot
+    2) protect from cold
+    3) be stored
+ */
+
+ /*
+Thing 10)
+5 properties: Umbrella
+    1) rods (int)
+    2) hinge (int)
+    3) waterproof fabric (std::string)
+    4) handle (std::string)
+    5) automatism (bool)
+3 things it can do:
+    1) protect from rain
+    2) fold
+    3) used as a weapon
+ */
+
 
 
 /*
