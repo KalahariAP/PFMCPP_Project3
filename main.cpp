@@ -140,15 +140,15 @@ Thing 4) Robot
 /*
 Thing 10) synthesizer
 5 properties: 
-    1) power (bool)
-    2) oscillator (int)
-    3) filter (float)
-    4) keyboard (int)
-    5) model (char)
+    1) slider 
+    2) knob 
+    3) midi 
+    4) keynote
+    5) switch
 3 things it can do:
-    1) modify waves
-    2) emit sound
-    3) vary frequencies
+    1) modify fiter
+    2) play note
+    3) change frequency
  */
 
  
