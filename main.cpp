@@ -81,80 +81,6 @@ Part1 will be broken up into 5 separate steps
 */
 
 /*
-Thing 5)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 6)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 7)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 8)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 9)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-
-
-
-
-/*
 Thing 1) Beach
 5 properties:
     1) tourists (int)
@@ -173,7 +99,7 @@ Thing 2) Restaurant
 5 properties:
     1) table (int)
     2) barCounter (float)
-    3) meals ()
+    3) meals (int)
     4) MichelinStar (bool)
     5) diners (int)
 3 things it can do:
@@ -209,7 +135,76 @@ Thing 4) Robot
     2) calculate quickly
     3) make automated decisions
  */
+ /*
 
+Thing 5) slider
+5 properties:
+    1) minimum range value (int)
+    2) maximum range value (int)
+    3) thumb position (int)
+    4) Tick mark (int)
+    5) color (std:string)
+3 things it can do:
+    1) change range value
+    2) move up
+    3) move down
+ */
+
+/*
+Thing 6) knob
+5 properties:
+    1) height in cm (int)
+    2) width in cm (int) 
+    3) number of marks (int)
+    4) material protector (std:string)
+    5) arrow indicator (bool)
+3 things it can do:
+    1) Rotate to the left
+    2) Rotate to the right
+    3) change parameters
+ */
+
+/*
+Thing 7) midi
+5 properties:
+    1) number of pins (int)
+    2) output signal (bool)
+    3) input signal (bool)
+    4) led (int)
+    5) sign board (std:string)
+3 things it can do:
+    1) send data
+    2) receive data
+    3) connect devices
+ */
+
+/*
+Thing 8) keynote
+5 properties:
+    1) down position (bool)
+    2) up position (bool)
+    3) keyboard position (int)
+    4) name on scale (std:string)
+    5) color (std:string)
+3 things it can do:
+    1) play a note
+    2) harmonize with others 
+    3) produce sustain
+ */
+
+/*
+Thing 9) switch
+5 properties:
+    1) turn on (bool)
+    2) turn off (bool)
+    3) bypass (bool)
+    4) Fabrication material (std:string)
+    5) packing ring (int)
+3 things it can do:
+    1) turn on the light
+    2) activate oscillators
+    3) do not interfere with the signal
+*/   
 /*
 Thing 10) synthesizer
 5 properties: 
