@@ -199,7 +199,40 @@ Thing 1) Beach
     2) create dunes
     3) grow coconut trees
  */
+struct Beach
+{
+    // number of tourist
+    int numTourist = 350;
+    // miles of coastline
+    float coastlineMiles = 3.50f;
+    // number of sunbeds
+    int numSunbeads = 100;
+    // number of palmTree
+    int numPalmtree = 1500;
+    // lifeguardService 
+    bool lifeguard = true;
 
+    struct Lifeguard
+    {
+        std::string name = "David Flinch";
+        int age = 25;
+        double weightKg = 80.800;
+        float heightCm = 180.5f;
+        bool officialTitle = true;
+        bool experience = true;
+
+    void workWeekend (bool fullTime);
+    void swimStyles (int numStyles = 4);
+    float strokeSpeed (float averageSpeed); 
+    };
+
+    //1) change extension
+    void changeExtension (float numMiles);   
+    //2) create dunes
+    void createDunes (double cubicVolume);
+    //3) grow coconut trees
+    void growCoconutTrees (std::string palmClass);
+};
 /*
 Thing 2) Restaurant
 5 properties:
@@ -213,7 +246,39 @@ Thing 2) Restaurant
     2) feed
     3) reserve the right of admission
  */
+struct Restaurant
+{
+    //  number of tables 
+    int tables = 20;
+    //  long measure of barCounter 
+    float longBarcounter = 25.5f;
+    //  number of services meals 
+    int numMeals = 3;
+    //  awarded with MichelinStar 
+    bool awardMStar = true;
+    //  dining capacity 
+    int numDinner = 185;
 
+    struct Barcounter
+    {
+        std::string nameCocktailshaker = "Thomas Anderson";
+        int numWaiters = 4;
+        float heightCm = 80.5f;
+        bool barstool = false;
+        float closingTime = 23.30f;
+
+        void drinkTasting (std::string drinkClass);
+        void beerShooter (int shoots, float literPM);
+        int appetizer (std::string appetizerClass, int portionPlate);
+    };
+
+    //1) offer happy hour
+    void offerHappyhour (bool happyhour, float happyhourTime);
+    //2) feed
+    void feed (bool takeaway, int ordersPerDay);
+    //3) reserve the right of admission
+    bool rightAdmission (bool admission, int securityTeam);
+};
 /*
 Thing 3) Museum
 5 properties:
@@ -227,7 +292,26 @@ Thing 3) Museum
     2) charge entrance
     3) exhibit art
  */
+struct Museum
+{
+    //1) number of paintsRoom
+    int paintsRoom = 48;
+    //2) number of visitors
+    int numVisitors = 5000;
+    //3) exhibition of classicArt
+    bool classicArt = false;
+    //4) souvenirShop  
+    bool souvenirShop = true;
+    //5) number of sculptures 
+    int numSculptures = 25;
 
+    //1) select artists
+    void selectArtist (int timeExposition, float artistCache);
+    //2) charge entrance
+    void chargeEntrance (float elevatorMeasure, int numTrucks);
+    //3) exhibit art
+    void exhibitArt (int alternativeExposureAnual);
+};
 /*
 Thing 4) Robot
 5 properties:
@@ -241,6 +325,24 @@ Thing 4) Robot
     2) calculate quickly
     3) make automated decisions
  */
+struct Robot
+{
+    //1) processors (int)
+    int numProcessors = 120;
+    //2) articulatedArms (bool)
+    bool articulatedArms = true;
+    //3) kilos of metal (float)
+    float weightMetal = 150.65f;
+    //4) number of viewers (int)
+    int viewers = 2;
+    //5) number of microchips (int)
+    int numMicrochips = 4500;
+
+    //1) replace a human
+    void replaceHuman (bool replace, std::string humanTask);
+    //2) calculate quickly
+    //3) make automated decisions
+};
  /*
 
 Thing 5) slider
